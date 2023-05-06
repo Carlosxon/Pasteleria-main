@@ -1,0 +1,97 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head> 
+    <meta charset="UFT-8">
+    <meta  http-equiv="X-UA_compatible" content="IE edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Formulario Compra</title> 
+    <link rel="stylesheet" href="">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #ae672d;
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            width: 30%;
+            color: white;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 30%;
+            background-color: #d8a89d;
+        
+        }
+    </style>
+</head>
+
+<body background="./img/fondo1.jpg">
+    <dd>
+        <header>Formulario</header>
+    <article>
+        <center>
+        <img src="./img/Logo1.JPG" alt="Logo" width="200px"><br>
+        </center> 
+    <form action="./Compra.html">
+        <h2>Ingrese sus datos personales</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="Nombre" id="nombre" name="nombre"><br>
+        <label for="telefono">Telefono:</label>
+        <input type="tel" placeholder="Telefono" id="telefono" name="telefono" maxlength="10"><br>
+        <label for="correo">Correo: </label>
+        <input type="email" placeholder="Correo" id="correo" name="correo"><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" placeholder="Direccion" id="direccion" name="direccion">
+        <h2>Selecciona el sabor de tu pastel</h2>
+        <input type="checkbox" id="pastel1" name="pastel1" value="Andromeda">
+        <label for="pastel1">Galaxia Andromeda</label> <br>
+        <input type="checkbox" id="pastel2" name="pastel2" value="Centauro">
+        <label for="pastel2">Galaxia Centauro</label><br>
+        <input type="checkbox" id="pastel3" name="pastel3" value="Atenea">
+        <label for="pastel3">Galaxia Atenea</label><br>
+        <input type="checkbox" id="pastel4" name="pastel4" value="Magallanes">
+        <label for="pastel4">Galaxia Nube de Magallanes</label><br>
+        <input type="checkbox" id="pastel5" name="pastel5" value="Barnard">
+        <label for="pastel5">Galaxia Barnard</label><br>
+        <input type="checkbox" id="pastel6" name="pastel6" value="Circinus">
+        <label for="pastel6">Galaxia Circinus</label><br>
+        <input type="checkbox" id="pastel7" name="pastel7" value="Vialactea">
+        <label for="pastel7">Via Lactea</label>
+
+        <h2>Seleciona los adornos</h2>
+        <input type="checkbox" id="adorno1" name="adorno1" value="Banderin1">
+        <label for="adorno1">Banderin con nombre</label><br>
+        <input type="checkbox" id="adorno2" name="adorno2" value="Banderin2">
+        <label for="adorno2">Banderin con número</label><br>
+        <input type="checkbox" id="adorno3" name="adorno3" value="Velapequeña">
+        <label for="adorno3">Vela pequeña</label><br>
+        <input type="checkbox" id="adorno4" name="adorno4" value="Velagrande">
+        <label for="adorno4">Vela Grande</label><br>
+        <input type="checkbox" id="adorno5" name="adorno5" value="Velamagica">
+        <label for="adorno5">Velas Mágicas</label><br>
+
+        <br>
+        <input type="submit" value="Enviar">  
+        <input type="reset" value="Borrar Datos">
+        
+        
+        <br>
+
+        <label for="pastelero">Pastelero: </label>
+        <a href="./Pastelero.html">
+            <input type="button" value="pastelero">
+            </a>
+
+    <br>
+    <p>Teléfono: 5531984027 <br>Dirección: Mérida Yucatán México <br>Horarios: Lunes a Sabados -  10 am a 9pm</p>
+    
+
+</dd>
+</article>
+</body>
+
+</html>
